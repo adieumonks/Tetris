@@ -25,3 +25,21 @@ var NEXTLEVEL = 10;
 
 // ---------------グローバル変数---------------
 var canvas = null;
+var g = null;
+var stage = new Array(BLOCK_COLS);
+var field = new Array(BLOCK_COLS);
+var blockSize;
+var speed;
+var frame;
+var block = new Array();
+var oBlock = new Array();
+var blockType;
+var x, y;
+var sx, sy;
+var mode;
+var timer1;
+var fps;
+var clerLine;
+var effectState = {flipFlop: 0, speed: 0, count: 0};
+
+// ---------------初期化---------------
