@@ -43,3 +43,10 @@ var clerLine;
 var effectState = {flipFlop: 0, speed: 0, count: 0};
 
 // ---------------初期化---------------
+function init(){
+  clearTimeout(timer1);
+  fps = 30;
+  clerLine = 0;
+  $("#canvas").attr("width", SCREEN_WIDTH);
+  $("#canvas").attr("height", SCREEN_WIDTH);
+}
